@@ -1,0 +1,10 @@
+.normal {
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.3rem;
+    background-color: green;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+}

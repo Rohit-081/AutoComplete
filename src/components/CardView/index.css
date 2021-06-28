@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.card {
+    background-color: #39A2DB;
+    height: 720px;
+    margin: auto;
+}
+
+.container-card {
+    width: 1530px;
+}
+
+h1 {
+    padding-top: 10px;
+}
