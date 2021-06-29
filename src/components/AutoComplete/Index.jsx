@@ -8,9 +8,6 @@ function Index() {
   const [list, setList] = useState([]);
 
   useEffect(() => {
-    if (!userInput) {
-      return;
-    }
     axios
       .get(`http://www.omdbapi.com/?s=${userInput}&apikey=596c79ab`)
       .then((res) => {
@@ -86,7 +83,7 @@ function Index() {
             ))}
           </ul>
         </div>
-        <p className="hell">Hello</p>
+        <p className="choice">Select 5 Movies of your choice.</p>
       </div>
     </>
   );

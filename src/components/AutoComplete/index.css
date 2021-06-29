@@ -3,14 +3,9 @@
     margin: 0;
 }
 
-.hell {
-    z-index: -1;
-}
-
 ul {
     list-style-type: none;
     margin: auto;
-    float: right;
 }
 
 li {
@@ -18,7 +13,6 @@ li {
     padding: 10px;
     width: 400px;
     background-color: #A6A6A6;
-    z-index: 1;
 }
 
 .list-center {
@@ -37,10 +31,12 @@ li:hover {
 
 .container_nik {
     background-color: #39A2DB;
-    max-height: fit-content;
+    height: 720px;
+    position: relative;
 }
 
-.box {
+
+/* .box {
     display: flex;
     flex-wrap: wrap;
 }
@@ -48,6 +44,7 @@ li:hover {
 .box>* {
     flex: 1 1 160px;
 }
+ */
 
 .container {
     display: flex;
@@ -69,7 +66,7 @@ li:hover {
 .pill {
     background-color: #E0E0E0;
     color: Black;
-    margin: 5px;
+    margin: 1px;
     margin-left: 15px;
     padding: 7px;
     font-size: 10px;
